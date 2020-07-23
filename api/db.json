@@ -1,0 +1,19 @@
+{
+  "streams": [
+    {
+      "title": "my stream",
+      "description": "This is a great stream",
+      "id": 1
+    },
+    {
+      "title": "Avengers",
+      "description": "Endgame is on the way... Run Thanos, Run!!!!",
+      "id": 2
+    },
+    {
+      "title": "Updated Form",
+      "description": "This change is made by a patch",
+      "id": 7
+    }
+  ]
+}
