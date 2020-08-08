@@ -1,4 +1,4 @@
-### funWithTwitch: is an inspired project from the twitch and tries to implement basic functionalities of it and perform basic CRUD operations using React and Redux. It allows users to perform certain actions 
+### Streamify: is an inspired project from the twitch and tries to implement basic functionalities of it and perform basic CRUD operations using React and Redux. It allows users to perform certain actions 
 ### after successfully logging in to the system using google g-mail authentication system. In order to run this project using follow command:
 ### `npm start`
 

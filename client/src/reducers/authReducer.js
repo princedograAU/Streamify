@@ -10,6 +10,13 @@ const INITIAL_STATE = {
     userId: null
 };
 
+/**
+ * Reducer function to update the user login/logout state
+ * @function {reducer}
+ * @param {object} props - Component props specific to this setup
+ * @param {any} state - Initial state for setup
+ * @returns {newState}
+ */
 export default (state=INITIAL_STATE, action) => {
     switch (action.type) {
         case SIGN_IN:

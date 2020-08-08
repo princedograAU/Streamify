@@ -3,7 +3,7 @@
 // :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 import _ from 'lodash';
-import { 
+import {
     FETCH_STREAM,
     FETCH_STREAMS,
     CREATE_STREAM,
@@ -11,6 +11,13 @@ import {
     DELETE_STREAM
  } from '../actions/type.js';
 
+ /**
+  * Reducer function to update stream state based on the actions
+  * @function {reducer}
+  * @param {object} props - Component props specific to this setup
+  * @param {any} state - Initial state for setup
+  * @returns {newState}
+  */
  export default ( state={}, action ) => {
     switch(action.type) {
         case FETCH_STREAMS:
